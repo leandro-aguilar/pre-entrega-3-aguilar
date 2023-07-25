@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilos generales */
+body {
+  background-color: rgba(187, 187, 187, 0.836);
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color: whitesmoke; }
+
+header {
+  background-color: #343132;
+  padding: 5px;
+  text-align: center; }
+  header .lobo {
+    width: 100px;
+    height: auto; }
+  header .nav-item {
+    background-color: #7c336a;
+    border-radius: 2.5%;
+    padding: 0.1rem;
+    margin: 0.2rem;
+    font-size: 1rem; }
+  header .nav-link {
+    font-size: 1.3rem;
+    color: whitesmoke; }
+
+main .carousel {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+main .div-x {
+  background-color: #343132;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1.5rem; }
+
+main .div-p {
+  background-color: #343132;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+main .div-v {
+  display: grid;
+  justify-content: center; }
+
+main .video {
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  height: auto; }
+
+main .div-img {
+  display: grid;
+  justify-content: center; }
+
+main .imagenes-p {
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  height: auto; }
+
+main .div-mapa {
+  display: grid;
+  justify-content: center;
+  margin: 1.5rem; }
+
+main .mapa {
+  width: 100%; }
+
+main li {
+  list-style: none; }
+
+main .comentarios {
+  background-color: #2e2edf;
+  border-radius: 3%;
+  margin: 0.5rem;
+  padding: 0.5rem; }
+
+footer .div-pie {
+  background-color: #343132;
+  padding-top: 0.5rem; }
+
+footer .pie {
+  text-align: center;
+  padding: 1rem; }
