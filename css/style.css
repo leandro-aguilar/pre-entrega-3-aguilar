@@ -81,6 +81,34 @@ main .comentarios {
   margin: 0.5rem;
   padding: 0.5rem; }
 
+main .contenedor {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1, 25%;
+  grid-template-rows: 4, 30%;
+  grid-template-columns: 70%; }
+
+main .hijos {
+  background-color: #343132;
+  margin: 1rem;
+  border-radius: 2.5%; }
+
+main .img-grid {
+  width: 100%;
+  height: auto;
+  padding: 1rem; }
+
+main .ul-li {
+  text-align: center;
+  margin: 0.5rem; }
+
+main .img-clientes {
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  height: auto;
+  border-radius: 5%; }
+
 footer .div-pie {
   background-color: #343132;
   padding-top: 0.5rem; }
@@ -88,3 +116,14 @@ footer .div-pie {
 footer .pie {
   text-align: center;
   padding: 1rem; }
+
+/* estilos de tablet */
+@media screen and (min-width: 600px) {
+  main .contenedor {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 50%); } }
+
+@media screen and (min-width: 1024px) {
+  main .contenedor {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100%); } }
