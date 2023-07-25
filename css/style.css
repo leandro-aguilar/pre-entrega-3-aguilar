@@ -17,6 +17,11 @@ header {
   header .lobo {
     width: 100px;
     height: auto; }
+  header .lobo:hover {
+    transform: rotatey(180deg);
+    opacity: 0.2;
+    filter: blur(10px);
+    filter: grayscale(30%); }
   header .nav-item {
     background-color: #7c336a;
     border-radius: 2.5%;
@@ -93,6 +98,11 @@ main .hijos {
   margin: 1rem;
   border-radius: 2.5%; }
 
+main .hijos:hover {
+  opacity: 0.2;
+  filter: blur(10px);
+  filter: grayscale(30%); }
+
 main .img-grid {
   width: 100%;
   height: auto;
@@ -123,7 +133,22 @@ footer .pie {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 50%); } }
 
+/* estilos de pc */
 @media screen and (min-width: 1024px) {
+  header #navbarNav {
+    display: grid;
+    justify-content: right; }
+  header .nav-item {
+    background-color: #343132; }
   main .contenedor {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 100%); } }
+    grid-template-rows: repeat(1, 100%); }
+  .av-kp {
+    display: grid;
+    justify-content: center; }
+  .carousel-item {
+    width: 1024px;
+    height: auto; }
+  .div-v {
+    display: grid;
+    justify-content: center; } }
